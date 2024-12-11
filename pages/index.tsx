@@ -1,5 +1,6 @@
 import Nav from '@/Components/Nav'
-import React from 'react'
+import React from 'react';
+
 
 const HomePage = () => {
   return (
