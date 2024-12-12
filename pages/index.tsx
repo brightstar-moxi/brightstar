@@ -11,7 +11,7 @@ const closeNav = () => setNav(false)
   return (
     <div className='overflow-x-hidden'>
       <div>
-        <MobileNav/>
+        <MobileNav nav={nav} closeNav={closeNav}/>
         <Nav/>
       </div>
     </div>
