@@ -9,6 +9,9 @@ const About = () => {
            <h2 className='text-[25px] md:text-[35px] lg:text-[45px] md:leading-[2rem] capitalize mb-[3rem] font-bold text-white'>
             Transforming <span className='text-yellow-400'>Visions</span>
              </h2>
+             <div className='mb-[3rem] flex items-center md:space-x-10'>
+<span className='w-[100px] hidden'></span>
+             </div>
             </div>
         </div>
     </div>
