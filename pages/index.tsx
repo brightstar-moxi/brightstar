@@ -17,7 +17,7 @@ const closeNav = () => setNav(false);
         <MobileNav nav={nav} closeNav={closeNav}/>
         <Nav openNav={openNav}/>
                <Hero/>
-                <div className="relation z-[30]">
+                <div className="relative z-[30]">
          <About/>
         </div>
         </div>
