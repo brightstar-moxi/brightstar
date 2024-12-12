@@ -12,7 +12,7 @@ const closeNav = () => setNav(false)
     <div className='overflow-x-hidden'>
       <div>
         <MobileNav nav={nav} closeNav={closeNav}/>
-        <Nav/>
+        <Nav openNav={openNav}/>
       </div>
     </div>
   )
