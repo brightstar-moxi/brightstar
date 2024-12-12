@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 
 const HomePage = () => {
 const [nav, setNav]= useState(false)
-const openNav =()=>setNav(true)
+const openNav = () => setNav(true)
 const closeNav = () => setNav(false)
 
   return (
