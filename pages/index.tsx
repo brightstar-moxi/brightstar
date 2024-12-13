@@ -31,6 +31,7 @@ const closeNav = () => setNav(false);
          <Project/>
          {/* Reviews/ Testimonial */}
          <Testimonial/>
+         
         </div>
         </div>
     </div>
