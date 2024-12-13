@@ -2,6 +2,7 @@ import About from '@/Components/About';
 import Hero from '@/Components/Hero';
 import MobileNav from '@/Components/MobileNav';
 import Nav from '@/Components/Nav';
+import Service from '@/Components/Service';
 import React, { useState } from 'react';
 
 
@@ -19,6 +20,8 @@ const closeNav = () => setNav(false);
                <Hero/>
                 <div className="relative z-[30]">
          <About/>
+         {/* service */}
+         <Service/>
         </div>
         </div>
     </div>
