@@ -1,3 +1,4 @@
+import { UserCircleIcon } from '@heroicons/react/20/solid'
 import Image from 'next/image'
 import React from 'react'
 
@@ -18,7 +19,17 @@ const Blog = () => {
                             className='object-cover'
                         />
                     </div>
-                    <div></div>
+                    <div className='w-[90%] text-center mx-auto bg-[#09101a] relative p-[2rem] mt-[-1rem]'>
+                        <div className='w-fit px-[2rem] py-[1rem] bg-[#55a6a5] relative mt-[-3rem] text-black font-semibold'>
+                            December 10, 2023
+                        </div>
+                        <div className='flex flex-col md:flex-row items-center mt-[1rem] space-x-4'>
+                            <div className='flex items-center space-x-3'>
+                                <UserCircleIcon className='w-[2rem] mx-auto h-[2rem] text-[#55a6a5]'/>
+                                <p className='text-white'>By Brighstar</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div></div>
                 <div></div>
