@@ -1,8 +1,13 @@
 import React from 'react'
 
-const SkillItel = () => {
+interface Props {
+    title:string
+     year:string
+}
+
+const SkillItel = ({title,year}:Props) => {
   return (
-    <div>SkillItel</div>
+    <div className='mb-[4rem] md:mb-[8rem]'>SkillItel</div>
   )
 }
 
