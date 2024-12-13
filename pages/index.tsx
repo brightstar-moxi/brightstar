@@ -5,6 +5,7 @@ import Nav from '@/Components/Nav';
 import Project from '@/Components/Project';
 import Service from '@/Components/Service';
 import Skill from '@/Components/Skill';
+import Testimonial from '@/Components/Testimonial';
 import React, { useState } from 'react';
 
 
@@ -28,6 +29,8 @@ const closeNav = () => setNav(false);
          <Skill/>
          {/* project */}
          <Project/>
+         {/* Reviews/ Testimonial */}
+         <Testimonial/>
         </div>
         </div>
     </div>
