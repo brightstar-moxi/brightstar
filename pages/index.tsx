@@ -2,6 +2,7 @@ import About from '@/Components/About';
 import Hero from '@/Components/Hero';
 import MobileNav from '@/Components/MobileNav';
 import Nav from '@/Components/Nav';
+import Project from '@/Components/Project';
 import Service from '@/Components/Service';
 import Skill from '@/Components/Skill';
 import React, { useState } from 'react';
@@ -25,6 +26,8 @@ const closeNav = () => setNav(false);
          <Service/>
          {/* skill */}
          <Skill/>
+         {/* project */}
+         <Project/>
         </div>
         </div>
     </div>
