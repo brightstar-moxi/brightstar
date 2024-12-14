@@ -1,4 +1,4 @@
-import { UserCircleIcon } from '@heroicons/react/20/solid'
+import { ChatBubbleLeftRightIcon, UserCircleIcon } from '@heroicons/react/20/solid'
 import Image from 'next/image'
 import React from 'react'
 
@@ -27,6 +27,9 @@ const Blog = () => {
                             <div className='flex items-center space-x-3'>
                                 <UserCircleIcon className='w-[2rem] mx-auto h-[2rem] text-[#55a6a5]'/>
                                 <p className='text-white'>By Brighstar</p>
+                            </div>
+                            <div className='flex items-center space-x-3'>
+                                <ChatBubbleLeftRightIcon/>
                             </div>
                         </div>
                     </div>
