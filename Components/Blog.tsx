@@ -25,11 +25,12 @@ const Blog = () => {
                         </div>
                         <div className='flex flex-col md:flex-row items-center mt-[1rem] space-x-4'>
                             <div className='flex items-center space-x-3'>
-                                <UserCircleIcon className='w-[2rem] mx-auto h-[2rem] text-[#55a6a5]'/>
+                                <UserCircleIcon className='w-[1.5rem] mx-auto h-[2rem] text-[#55a6a5]'/>
                                 <p className='text-white'>By Brighstar</p>
                             </div>
                             <div className='flex items-center space-x-3'>
-                                <ChatBubbleLeftRightIcon/>
+                                <ChatBubbleLeftRightIcon className='w-[2rem] mx-auto h-[1.5rem] text-[#55a6a5]'/>
+                                <p className='text-white'>Comments</p>
                             </div>
                         </div>
                     </div>
