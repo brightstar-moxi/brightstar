@@ -30,7 +30,7 @@ const Blog = () => {
                             </div>
                             <div className='flex items-center space-x-3'>
                                 <ChatBubbleLeftRightIcon className='w-[2rem] mx-auto h-[1.5rem] text-[#55a6a5]'/>
-                                <p className='text-white'>Comments</p>
+                                <p className='text-white'>Comments (12)</p>
                             </div>
                         </div>
                     </div>
