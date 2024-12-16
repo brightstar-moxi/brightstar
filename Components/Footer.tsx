@@ -37,10 +37,10 @@ const Footer = () => {
                 <div className='text-[18px] mb-[2rem] md:mb-0 text-white opacity-20'>
                     Brightstar warriors 2023 | All Rights Reserved
                 </div>
-                <div>
-                    <p></p>
-                    <p></p>
-                    <p></p>
+                <div className='flex items-center space-x-10'>
+                    <p className='text-[18px] text-white opacity-20'>Terms & Condition</p>
+                    <p className='text-[18px] text-white opacity-20'> Privacy Policy</p>
+                    <p className='text-[18px] text-white opacity-20'>Sitemap</p>
                 </div>
             </div>
         </div>
