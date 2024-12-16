@@ -34,13 +34,13 @@ const Footer = () => {
                 </div>
             </div>
             <div className='w-[80%] mt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-between'>
-                <div className='text-[18px] mb-[2rem] md:mb-0 text-white opacity-20'>
+                <div className='text-[16px] mb-[2rem] md:mb-0 text-white opacity-20'>
                     Brightstar warriors 2023 | All Rights Reserved
                 </div>
                 <div className='flex items-center space-x-10'>
-                    <p className='text-[18px] text-white opacity-20'>Terms & Condition</p>
-                    <p className='text-[18px] text-white opacity-20'> Privacy Policy</p>
-                    <p className='text-[18px] text-white opacity-20'>Sitemap</p>
+                    <p className='text-[16px] text-white opacity-20'>Terms & Condition</p>
+                    <p className='text-[16px] text-white opacity-20'> Privacy Policy</p>
+                    <p className='text-[16px] text-white opacity-20'>Sitemap</p>
                 </div>
             </div>
         </div>

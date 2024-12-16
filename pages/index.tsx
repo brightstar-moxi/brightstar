@@ -16,6 +16,8 @@ const [nav, setNav]= useState(false);
 const openNav = () => setNav(true);
 const closeNav = () => setNav(false);
 
+// Animation AOS setup
+
   return (
     <div className="overflow-x-hidden">
       <div>
