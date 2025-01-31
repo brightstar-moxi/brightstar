@@ -1,7 +1,12 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from 'next/image';
+import Link from 'next/link';
 
 const ww = "https://brightstarmoxiz.github.io/coolbrightstar/game%20creator.html"
+const pro = "https://mosesjojolola-site.netlify.app/"
+const pro2 ='https://brightstar-video-call.netlify.app/'
+const pro3="https://lovescollection.netlify.app/"
+const pro4 = "https://zanny-beauty-palace.netlify.app/"
+
 import React from 'react'
 
 const Project = () => {
