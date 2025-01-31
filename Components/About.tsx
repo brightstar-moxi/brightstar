@@ -1,5 +1,6 @@
 import { ArrowDownTrayIcon } from '@heroicons/react/20/solid'
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const About = () => {
@@ -16,11 +17,13 @@ const About = () => {
                         <p className='text-[19px] text-slate-300 w-[80%]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At pariatur quae vitae, natus animi voluptatibus
                             deserunt, quibusdam possimus consectetur aspernatur rem voluptates eaque atque illo! Soluta iste recusandae doloremque dolore.</p>
                     </div>
+                    <Link href='/images/mypdf.pdf' download="CV" target='_blank'>
                     <button className='px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold 
                         uppercase bg-[#55a6a5] text-black flex items-center space-x-2'>
                         <p>Download Cv</p>
                         <ArrowDownTrayIcon className='w-[1.6rem] h-[1.7rem] text-black' />
                     </button>
+                    </Link>
                 </div>
                 <div data-aos="fade-left" className='lg:w-[500px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[500px] w-[300px] h-[300px] relative'>
                     <Image src="/images/me.jpg"
