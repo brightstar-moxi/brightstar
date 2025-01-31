@@ -34,22 +34,22 @@ const TestimonialSlider = () => {
         >
             {/* clientReview */}
             <ClientReview
-                image="/images/me.jpg"
+                image="/images/white1.jpeg"
                 name="bright star"
                 role="Web Developer"
             />
             <ClientReview
-                image="/images/me.jpg"
+                image="/images/black2.jpeg"
                 name="Moxiz"
                 role="MERN Developer"
             />
             <ClientReview
-                image="/images/me.jpg"
+                image="/images/white2.jpg"
                 name="ade"
                 role="React Developer"
             />
             <ClientReview
-                image="/images/me.jpg"
+                image="/images/white3.jpg"
                 name="seun"
                 role="Next Js Developer"
             />
