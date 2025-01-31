@@ -23,8 +23,8 @@ const responsive = {
 const TestimonialSlider = () => {
     return (
         <Carousel
-            additionalTransform={0}
-            arros={true}
+        additionalTransfrom={0}
+        arrows={true}
             autoPlay={true}
             autoPlaySpeed={5000}
             centerMode={false}
