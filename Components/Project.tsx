@@ -58,7 +58,7 @@ const Project = () => {
                     <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]'>
                         <a href={pro3}>
                         <Image
-                            src="/images/me.jpg"
+                            src="/images/pro6.PNG"
                             alt="portfolio"
                             layout='fill'
                             className='object-contain'
@@ -70,7 +70,7 @@ const Project = () => {
                     <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]'>
                       <a href={pro4}>
                         <Image
-                            src="/images/me.jpg"
+                            src="/images/pro7.PNG"
                             alt="portfolio"
                             layout='fill'
                             className='object-contain'
@@ -82,13 +82,53 @@ const Project = () => {
                     <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]'>
                         <a href={pro5}>
                         <Image
-                            src="/images/me.jpg"
+                            src="/images/pro8.PNG"
                             alt="portfolio"
                             layout='fill'
                             className='object-contain'
                         />
                         </a>
                     </div>
+                    
+                </div>
+                <div data-aos="fade-up" data-aos-delay="1800">
+                    <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]'>
+                        <a href={pro5}>
+                        <Image
+                            src="/images/pro8.PNG"
+                            alt="portfolio"
+                            layout='fill'
+                            className='object-contain'
+                        />
+                        </a>
+                    </div>
+                    
+                </div>
+                <div data-aos="fade-up" data-aos-delay="2000">
+                    <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]'>
+                        <a href={pro5}>
+                        <Image
+                            src="/images/pro8.PNG"
+                            alt="portfolio"
+                            layout='fill'
+                            className='object-contain'
+                        />
+                        </a>
+                    </div>
+                    
+                </div>
+                <div data-aos="fade-up" data-aos-delay="2200">
+                    <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]'>
+                        <a href={pro5}>
+                        <Image
+                            src="/images/pro8.PNG"
+                            alt="portfolio"
+                            layout='fill'
+                            className='object-contain'
+                        />
+                        </a>
+                    </div>
+                    
                 </div>
             </div>
         </div>
