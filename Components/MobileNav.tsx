@@ -1,4 +1,5 @@
 import { XMarkIcon } from '@heroicons/react/20/solid'
+import Link from 'next/link';
 import React from 'react'
 
 interface Props {
@@ -12,12 +13,13 @@ const MobileNav = ({nav, closeNav}:Props) => {
   return (
     <div className={`fixed ${navAnimation} transform transition-all duration-300 top-0 left-0 right-0 bottom-0 z-[1000000] bg-[#141c27]`}>
         <div className='w-[100vw] h-[100vh] flex flex-col items-center justify-center'>
-       <div className='nav-link-mobile'>HOME</div>
-       <div className='nav-link-mobile'>SERVICES</div>
-       <div className='nav-link-mobile'>ABOUT</div>
-       <div className='nav-link-mobile'>PROJECT</div>
-       <div className='nav-link-mobile'>BLOG</div>
-       <div className='nav-link-mobile'>CONTACT</div>
+       <div className='nav-link-mobile'><Link href="/"> HOME</Link> </div>
+     
+       <div className='nav-link-mobile'><Link href="#about">ABOUT </Link> </div>
+       <div className='nav-link-mobile'><Link href="#service">  SERVICES</Link></div>
+       <div className='nav-link-mobile'><Link href="#project">PROJECT</Link> </div>
+       <div className='nav-link-mobile'><Link href="#blog">BLOG</Link> </div>
+       <div className='nav-link-mobile'><Link href="#contact">CONTACT</Link> </div>
         </div>
         <div onClick={closeNav}
         className='absolute z-[1000000] cursor-pointer top-[2rem] right-[2rem] w-[2rem] h-[2rem] text-yellow-400'>

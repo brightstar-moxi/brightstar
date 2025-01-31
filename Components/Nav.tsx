@@ -17,11 +17,11 @@ const Nav = ({openNav}: Props) => {
         </h1>
         <div className='nav-link'><Link href="/">HOME</Link> </div>
        
-        <div className='nav-link'><Link href="#about"> </Link> ABOUT</div>
+        <div className='nav-link'><Link href="#about"> ABOUT</Link> </div>
         <div className='nav-link'><Link href="#service">SERVICES</Link></div>
-        <div className='nav-link'><Link href="#project"> </Link>PROJECT</div>
-        <div className='nav-link'><Link href="#blog"> </Link>BLOG</div>
-        <div className='nav-link'><Link href="#contact"> </Link>CONTACT</div>
+        <div className='nav-link'><Link href="#project"> PROJECT</Link></div>
+        <div className='nav-link'><Link href="#blog">BLOG </Link></div>
+        <div className='nav-link'><Link href="#contact">CONTACT</Link></div>
         <div onClick={openNav}>
           <Bars3Icon className='w-[2rem] md:hidden h-[2rem] cursor-pointer text-yellow-300'/>
         </div>
