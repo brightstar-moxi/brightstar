@@ -6,6 +6,9 @@ const pro = "https://mosesjojolola-site.netlify.app/"
 const pro2 ='https://brightstar-video-call.netlify.app/'
 const pro3="https://lovescollection.netlify.app/"
 const pro4 = "https://zanny-beauty-palace.netlify.app/"
+const pro5 = "https://brightstar-moses.onrender.com/"
+const pro6 = "https://my-portfolio-six-eta-66.vercel.app/"
+const pro7 = ""
 
 import React from 'react'
 
@@ -29,53 +32,62 @@ const Project = () => {
                 </div>
                 <div data-aos="fade-up" data-aos-delay="300">
                     <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]'>
-                       <a href=''></a>
+                       <a href={pro}>
                         <Image
                             src="/images/pro5.png"
                             alt="portfolio"
                             layout='fill'
                             className='object-contain'
                         />
+                        </a>
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="600">
                     <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]'>
+                        <a href={pro2}>
                         <Image
-                            src="/images/me.jpg"
+                            src="/images/pro2.PNG"
                             alt="portfolio"
                             layout='fill'
                             className='object-contain'
                         />
+                        </a>
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="900">
                     <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]'>
+                        <a href={pro3}>
                         <Image
                             src="/images/me.jpg"
                             alt="portfolio"
                             layout='fill'
                             className='object-contain'
                         />
+                        </a>
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="1200">
                     <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]'>
+                      <a href={pro4}>
                         <Image
                             src="/images/me.jpg"
                             alt="portfolio"
                             layout='fill'
                             className='object-contain'
                         />
+                        </a>
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="1600">
                     <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]'>
+                        <a href={pro5}>
                         <Image
                             src="/images/me.jpg"
                             alt="portfolio"
                             layout='fill'
                             className='object-contain'
                         />
+                        </a>
                     </div>
                 </div>
             </div>
