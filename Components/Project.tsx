@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Link from 'next/link';
+
 
 const ww = "https://brightstarmoxiz.github.io/coolbrightstar/game%20creator.html"
 const pro = "https://mosesjojolola-site.netlify.app/"
@@ -8,7 +8,6 @@ const pro3="https://lovescollection.netlify.app/"
 const pro4 = "https://zanny-beauty-palace.netlify.app/"
 const pro5 = "https://brightstar-moses.onrender.com/"
 const pro6 = "https://my-portfolio-six-eta-66.vercel.app/"
-const pro7 = ""
 
 import React from 'react'
 
@@ -93,7 +92,7 @@ const Project = () => {
                 </div>
                 <div data-aos="fade-up" data-aos-delay="1800">
                     <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]'>
-                        <a href={pro5}>
+                        <a href={pro6}>
                         <Image
                             src="/images/pro9.PNG"
                             alt="portfolio"

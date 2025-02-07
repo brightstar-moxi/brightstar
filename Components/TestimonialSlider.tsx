@@ -49,7 +49,7 @@ const TestimonialSlider = () => {
                 role="React Developer"
             />
             <ClientReview
-                image="/images/white3.jpeg"
+                image="/images/white3.jpg"
                 name="seun"
                 role="Next Js Developer"
             />
